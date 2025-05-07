@@ -1,7 +1,7 @@
 import React from 'react'
 import "./LandingPage.css"
-import logo from "../Assets/logo.png"
-import compare from "../Assets/compare.jpg"
+import logo from "../../Assets/logo.png"
+import compare from "../../Assets/compare.jpg"
 
 const LandingPage = () => {
   return (
