@@ -20,6 +20,34 @@ const LandingPage = () => {
                 <img src={compare} alt=""  />
             </div>
         </section>
+        <section className='featureSection'>
+            <div className='featureContainer'>
+                <h2 className='text-center'>Why Choose Zayvo?</h2>
+                <div className='featureGrid'>
+                    <div className="featureCard">
+                        <div className="featureIcon">🔍</div>
+                        <h3>Comprehensive Search</h3>
+                        <p>Search across multiple e-commerce platforms with a single click</p>
+                    </div>
+                    <div className="featureCard">
+                        <div className="featureIcon">📊</div>
+                        <h3>Side-by-Side Comparison</h3>
+                        <p>Compare product features, prices, and ratings in a clear format</p>
+                    </div>
+                    <div className="featureCard">
+                        <div className="featureIcon">💰</div>
+                        <h3>Find the Best Deals</h3>
+                        <p>Easily spot the best prices and offers across different sites</p>
+                    </div>
+                    <div className="featureCard">
+                        <div className="featureIcon">⏱️</div>
+                        <h3>Save Time</h3>
+                        <p>No more switching between tabs to compare products</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </>
   )
 }
