@@ -5,7 +5,7 @@ const Search = () => {
   return (
     <>
         <div className="searchPage">
-            <div className="container">
+            <div className="searchContainer">
                 <h1>Search Products</h1>
                 <br />
                 <form className='searchForm'>
@@ -16,6 +16,7 @@ const Search = () => {
                         Search
                     </button>
                 </form>
+                <p>Search for products to compare prices, features, and more.</p>
             </div>
         </div>
     </>

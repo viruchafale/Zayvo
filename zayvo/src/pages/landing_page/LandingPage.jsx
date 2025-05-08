@@ -69,8 +69,18 @@ const LandingPage = () => {
                 </div>
             </div>
             </div>
-      </section>
-      
+        </section>
+        <section className="cta">
+            <div className="ctaContainer">
+                <h2>Ready to Find the Best Products?</h2>
+                <p>Start comparing now and make smarter shopping decisions</p>
+                <button className="btn btn-primary">
+                    Get Started
+                </button>
+                
+            </div>
+        </section>
+
 
     </>
   )

@@ -10,15 +10,16 @@
   
 .searchPage h1 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color:#6b5b7a;
+    margin-left: 2rem; ;
 }
 
 
 .searchForm{
     display: flex;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
 
 }
 .searchInput {
@@ -37,7 +38,7 @@
     transition: all 0.3s ease;
     border: none;
     font-size: 1rem;
-  }
+}
   
 .btn-primary {
 background-color:#6b5b7a;
@@ -45,4 +46,9 @@ color: white;
 }
 .btn-primary:hover {
     background-color: #4c3c5b;
+}
+
+.searchContainer p{
+    text-align: center;
+    margin-top: 2rem;
 }
