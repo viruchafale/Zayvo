@@ -48,6 +48,30 @@ const LandingPage = () => {
             </div>
 
         </section>
+        <section className="howItWorks">
+            <div className="howItWorksContainer">
+            <h2 className="text-center">How It Works</h2>
+            <div className="stepsContainer">
+                <div className="step">
+                    <div className="stepNumber">1</div>
+                    <h3>Search for a Product</h3>
+                    <p>Enter keywords for the product you're looking for</p>
+                </div>
+                <div className="step">
+                    <div className="stepNumber">2</div>
+                    <h3>Select Items to Compare</h3>
+                    <p>Choose multiple products from the search results</p>
+                </div>
+                <div className="step">
+                    <div className="stepNumber">3</div>
+                    <h3>View Detailed Comparison</h3>
+                    <p>See all the details side by side and make an informed decision</p>
+                </div>
+            </div>
+            </div>
+      </section>
+      
+
     </>
   )
 }
